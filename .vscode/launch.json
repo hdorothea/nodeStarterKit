@@ -14,7 +14,6 @@
       "type": "node",
       "request": "launch",
       "protocol": "inspector",      
-      // Workspace relative or absolute path to the program.
       "program": "${workspaceFolder}/node_modules/mocha/bin/_mocha",
       "skipFiles": ["${workspaceRoot}/node_modules/**/*.js", "<node_internals>/**/*.js"]
     }
